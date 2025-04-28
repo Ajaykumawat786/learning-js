@@ -63,15 +63,27 @@ else if ( today == "friday") {
 
 //  gread system 
 
-let marks = 90
+let marks = 77
 
 if ( marks >= 90){
     console.log(marks, "congrat's you gat A+ gread in your exam")
+    alert("वा बेटे मोज करदी")
 }
 else if (marks >= 80){
     console.log(marks, "congrat's you got A gread in exam")
+    alert("सब्बास हीरा बेटे")
 }
 else if ( marks >= 60 )
     {
         console.log(marks, "congrats you got B Gread in exam ")
+        alert("ओ तेरे इतने नंबर कैसे आ गए हीरा बेटे")
     } 
+else if (marks >= 33){
+    console.log(marks, "you have gat C gread in exam ")
+    alert("बेटा तू तो सस्ते में निपट गया")
+    
+}
+else {
+    console.log(marks, "ops! you are fail")
+    alert("तू भी गया हीरा बेटे")
+}
