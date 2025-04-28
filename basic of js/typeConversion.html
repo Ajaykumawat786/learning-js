@@ -11,12 +11,66 @@
 
 
     <script >
+        
 
 let num = "143"
+let num3 = 112
+let num2 = 341 
+let married = false
+let marry = "true"
 
-let conversion = Number(num)
 
-console.log(type)
+
+
+let conversion = Number(num)                //string to number
+console.log( typeof conversion) 
+
+let numbeToString = String(num2)           // number to string
+console.log(typeof numbeToString)
+
+let booleanToNumber = Number(married)      // boolean to numbar
+console.log( typeof booleanToNumber)
+
+let stringAlphabetTONumbers= Number(marry)        //NAN { not a number }
+console.log(stringAlphabetTONumbers)
+
+
+
+// parseFloat and parseInt
+
+let parseFloating = "123.45"               //parseFloat()     // it will give you value along with daciml point
+
+console.log(parseFloating)                     //123.45
+console.log(typeof parseFloat(parseFloating))              // string
+
+
+let parseInts = "443.44"                 //parseint()     //it will give you value along with decimal point
+
+
+console.log(typeof parseInt(parseInts) )              // log-inti
+console.log( parseInt(parseInts))                       // 443 {dasimal k bad k number hta dega }
+
+
+
+let firstName = "ajay"
+let lastName = "kumawat"
+let fullName = firstName + " " + lastName
+
+console.log(fullName)                    // ajay kumawat
+
+console.log(firstName + num)           // ajay143
+
+console.log( num3 + num2 + lastName)  //     453kumawat  
+
+
+
+
+
+console.log("ajay" + 23)                // ajay24
+console.log(23 + "ajay")               // 24ajay
+console.log(24 + 2002 + "ajay")       // 2026ajay
+console.log("ajay" + 23 + 24 )       // ajay2324
+
 
     </script>
 </body>
