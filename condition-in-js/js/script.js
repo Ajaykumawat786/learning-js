@@ -63,7 +63,7 @@ else if ( today == "friday") {
 
 //  gread system 
 
-let marks = 55
+let marks = 54
 
 if ( marks<= 100 && marks>= 90 ){
     console.log(marks, "congrat's you gat A+ gread in your exam")
