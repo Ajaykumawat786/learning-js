@@ -45,6 +45,8 @@ console.log(names)                                  // ans. 8 names
 
 //---- slice, splice, split, join ---
 
+
+
 // slice           //slice(initialize, before the index)           //you can take only the values from the array
 // key point:   it will give you new value
 

@@ -98,7 +98,7 @@ let filterArray = coins.filter(coin => coin < 50)
 // it will give return you a number
 let reducer = coins.reduce((acc, curr, ) => {
        return    acc +=  curr
-},1000)
+})
 
 
 
