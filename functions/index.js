@@ -3,12 +3,13 @@
 
 // A JavaScript function is executed when "something" invokes it (calls it).
 // console.log(name)
-let name = "sween khan"
+let name = "Ajay Kumawat"
 
 
-
+ 
 
 // A. function declaration
+
 // key: it can be hoisted         console.log(greet())
 // return is neccessary 
 
@@ -72,6 +73,7 @@ function add(a, b){
 function multiply(a = 2, b = 4){
     return a * b
 }
+
 // console.log(multiply())
 
 
