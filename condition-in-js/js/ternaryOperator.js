@@ -15,3 +15,4 @@ let output2 = (darkTheme === true) ? "darkTheme has applyed " : "darkTheme has s
 
 
 console.log(output2)
+  
