@@ -49,7 +49,7 @@ const question = [
 
     },
     {
-        question: "What is India’s national sport?",
+        question: "What is India's national sport?",
         opction: ["Cricket", "Hockey", "Kabaddi", "Football"],
         answer: "Hockey"
 
@@ -126,8 +126,6 @@ let selectAnswer = null
 
 
 
-
-
 //next question
 function nextQuestion() {
 
@@ -149,13 +147,6 @@ function nextQuestion() {
         showresults()
     }
 }
-// function backButton(){
-//     if(currentQuestionIndex > 0)
-//     currentQuestionIndex--
-// backButton.addEventListener("click",)
-//     showquestion()
-// }
-
 
 //display currant question 
 function showquestion() {
@@ -195,9 +186,6 @@ function selectedAnswer(answer) {
     event.target.classList.add("selected");
     selectAnswer = answer
 
-
- 
-
 }
 function showresults() {
 
@@ -207,7 +195,6 @@ function showresults() {
         nextButton.classList.add("hide");
     scoreElement.textContent = score;
     resultContainer.classList.remove("hide");
-
 }
 showquestion()
 
