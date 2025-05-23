@@ -8,11 +8,13 @@
     display: none;
 }
 .opction{
+    background-color: antiquewhite;
+    border: none;
     border-radius: 10px;
     font-size: 20px;
-    padding: 5px;
+    padding: 8px;
     width: 80%;
-    margin: 10px;
+    margin: 15px;
 }
 .contioner{
     
@@ -36,18 +38,21 @@
     text-transform: uppercase;
 }
 .next-btn{
+    border: none;
     background-color: rgb(83, 206, 83);
-    margin: 10px 35px;
+    margin: 15px;
     padding: 10px 40px;
     border-radius: 10px;
 }
 .back-btn{
+    border: none;
     padding: 10px 30px;
     background-color: yellowgreen;
     border-radius: 10px;
     margin: 10px;
 }
 .restart-btn{
+    border: none;
     padding: 10px 30px;
     background-color: peru;
     border-radius: 10px;
@@ -55,4 +60,5 @@
 }
 .selected {
     background-color: green;
+    color: #fff;
 }

@@ -42,8 +42,8 @@
 
 //promet number game endless without currect answer
 
-let gameNum = 20
-let userNum = prompt("give the currect number 10,  20,  30,  35,")
+let gameNum = 30
+let userNum = prompt("give the Avarag number 10,  20,  30,  60,")
 while(userNum != gameNum){
     userNum = prompt("try agan")
 }

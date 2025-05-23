@@ -1,0 +1,30 @@
+*{margin: auto;
+    
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+h1{
+    font-size: 55px;
+text-transform: uppercase;
+}
+input{
+    margin: auto;
+    background-color: white;
+    color: black;
+    width: 75px;
+    height: 60px;
+    font-size: 45px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.input{
+    width: 380px;
+    height: 75px;
+background-color: rgb(88, 71, 71);
+}
+input:hover{
+    background-color:yellow;
+    cursor: pointer;
+}

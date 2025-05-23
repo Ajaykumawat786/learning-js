@@ -105,6 +105,14 @@ const question = [
         answer: "Diwali"
     }
 ];
+// let userID = document.querySelector("#userId")
+// let username = prompt("Enter your Full Name")
+// let emailId = prompt("confrem your register email ")
+
+// p.appendChild("span")
+// document.querySelector("#userId").innerHTML = `full name : ${username} , register email ID ${emailId}`;
+
+// console.log( document.querySelector("#userId"))
 
 
 //   Get DOM elements
@@ -129,7 +137,7 @@ let selectAnswer = null
 //next question
 function nextQuestion() {
 
-    console.log(score)
+    // console.log(score)
     if (selectAnswer === null) {
         alert("please slect an answer")
         return;
@@ -151,7 +159,7 @@ function nextQuestion() {
 //display currant question 
 function showquestion() {
     selectAnswer = null
-    resultContainer.classList.add("hidden")
+    resultContainer.classList.add("hide")
 
     // get currrent question
     let currentQuestion = question[currentQuestionIndex]
@@ -204,7 +212,9 @@ restartButton.addEventListener("click", () => {
     currentQuestionIndex = 0;
     showquestion()
 
-    resultContainer.classList.add("hide")
+    // resultContainer.classList.add("hide")
     nextButton.classList.remove("hide")
 
 })
+
+
