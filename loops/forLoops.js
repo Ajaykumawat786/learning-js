@@ -6,7 +6,6 @@
 
 let count = 5
 
-
 for(let count = 5; count <= 10;  count++ ){
 
     console.log(count)
@@ -35,7 +34,7 @@ console.log(greet)
 // exmapal of literals tempalte 
 
 let num = 99
-let subject = " maths"
+let subject = " Maths"
 let result = ` hello ${fullName}, congrats you gate ${num} in ${subject} keep it up my friend` 
 console.log( result)
 
@@ -87,7 +86,7 @@ for(let i =0; i < 4; i++){
 //          } else {
 //             console.log(names[i])
 //          }
-     
+      
 //     }
 
 
@@ -98,7 +97,7 @@ for(let i = 0; i < names.length; i++){
        continue;
     } else {
        console.log(names[i])
-    }
+    } 
 }
 
 

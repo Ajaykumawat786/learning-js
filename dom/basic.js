@@ -28,9 +28,9 @@ for(let i = 0; i < list2.length; i++){
 
 
 
-
+ 
 // style with dom
-list.style.color = "green"
+list.style.color = "pink"
 
 
 // innerHTML,innerText, textContent
